@@ -8,8 +8,5 @@ var idade=2020 - AnoValor
 
 else if (idade>=16)
     console.log("Se encontra apto ao voto")
-
-
-    else (idade>18)
-        console.log("Obrigado a votar por lei")
+    console.log("Obrigado a votar por lei")
 }

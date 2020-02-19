@@ -1,9 +1,13 @@
 var user= require ("readline-sync")
-Oferta=user.question ("Quantas maçãs pretende comprar? (Lembrando que levando 12 maçãs o preço da maçã cai para R$ 0,25)")
+var oferta=user.question ("Quantas macas pretende comprar?")
 
-if (Oferta>=12) 
 
-Oferta * 0,25
+    if (oferta>=12) {
+        
+        console.log ("Valor da compra com desconto aplicado fica R$"+oferta*0.25+"Reais")
 
-else { (Oferta<12) 
-Oferta * 0,35}
+            
+    }else{ (oferta<12)
+       
+        console.log("Valor da compra R$"+oferta*0.35+"Reais")
+    }
