@@ -7,11 +7,11 @@ var valor3=user.question("Insira o valor 3:")
 
         console.log("valor"+valor1)
 
-            if (valor1<valor2&&valor2<valor3)
+             if (valor1<valor2>valor3)
 
                 console.log("valor"+valor2)
 
-                    else if (valor1<valor2&&valor2<valor3)
+                    if (valor1<valor2&&valor2<valor3)
 
                         console.log("valor"+valor3)
 
